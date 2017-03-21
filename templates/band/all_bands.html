@@ -1,0 +1,12 @@
+{% extends 'masterPage/masterPage.html' %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}Todo{% endblock %}
+
+{% block content %}
+    <p>Here is the index page</p>
+    <div id="app">
+    </div>
+    {% render_bundle 'vendors' %}
+    {% render_bundle 'App2' %}
+{% endblock %}
