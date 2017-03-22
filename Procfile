@@ -1,2 +1,2 @@
 web: python manage.py runserver 0.0.0.0:$PORT
-webjs: node server.js
+worker: node server.js
