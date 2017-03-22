@@ -2,7 +2,7 @@
 https://cryptic-ravine-26247.herokuapp.com/
 
 Check out this webpage where I have made a responsive web design using ReactJs and Django.
-Store and share all your favorite bands. `Dont mind the testing images I kept in it.`
+Store and share all your favorite bands. `Dont mind the testing images I kept in it, and even the fact that you can put empty values in the form.`
 
 ## What have I used
 
