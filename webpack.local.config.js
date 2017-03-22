@@ -30,4 +30,4 @@ var ip = hostname
             './static/js/indexReact',
           ],
         }
-      config.output.publicPath = 'http://' + ip + ':' + port.toString() + '/static/bundles/'
+      config.output.publicPath = 'https://' + ip + ':' + port.toString() + '/static/bundles/'
