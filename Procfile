@@ -1,2 +1,1 @@
-web: gunicorn music.wsgi:application
-web: node server.js
+web: bin/runsvdir-dyno
