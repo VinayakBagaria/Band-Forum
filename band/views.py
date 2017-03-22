@@ -17,7 +17,7 @@ def band(request,pk):
         band = Band.objects.get(pk=pk)
         return render(request,'band/band.html',{"band":band})
     except:
-        return HttpResponse("Not fou")
+        return HttpResponse("Not found")
 
 @api_view(['GET','POST'])
 def banddetail(request,band_id):
