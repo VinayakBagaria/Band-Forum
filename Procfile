@@ -1,2 +1,2 @@
-webpy: python manage.py runserver 0.0.0.0:$PORT
+webpy: gunicorn music.wsgi:application
 webjs: node server.js
