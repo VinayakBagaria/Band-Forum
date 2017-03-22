@@ -2,6 +2,8 @@ var path = require("path")
 var webpack = require('webpack')
 var BundleTracker = require('webpack-bundle-tracker')
 var config = require('./webpack.base.config.js')
+var os = require("os")
+var hostname = os.hostname();
 
 config.devtool = "#eval-source-map"
 
@@ -18,12 +20,14 @@ config.module.loaders.push(
 
 module.exports = config
 
-var ip = 'localhost'
+var port = (3000 || process.env.PORT)
+
+var ip = hostname
         config.entry = {
           App1: [
-            'webpack-dev-server/client?http://' + ip + ':3000',
+            'webpack-dev-server/client?http://' + ip + ':' + port.toString(),
             'webpack/hot/only-dev-server',
             './static/js/indexReact',
           ],
         }
-      config.output.publicPath = 'http://' + ip + ':3000' + '/static/bundles/'
+      config.output.publicPath = 'http://' + ip + ':' + port.toString() + '/static/bundles/'
