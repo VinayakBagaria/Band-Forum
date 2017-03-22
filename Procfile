@@ -1,2 +1,2 @@
-web: python manage.py runserver 0.0.0.0:$PORT
+web: gunicorn music.wsgi:application
 worker: node server.js
