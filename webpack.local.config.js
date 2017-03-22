@@ -20,12 +20,12 @@ config.module.loaders.push(
 
 module.exports = config
 
-var port = (3000 || process.env.PORT)
+var port = (process.env.PORT || 3000)
 
 var ip = hostname
         config.entry = {
           App1: [
-            'webpack-dev-server/client?http://' + ip + ':' + port.toString(),
+            'webpack-dev-server/client?https://' + ip + ':' + port.toString(),
             'webpack/hot/only-dev-server',
             './static/js/indexReact',
           ],
