@@ -1,2 +1,1 @@
-web: gunicorn music.wsgi:application
-worker: node server.js
+web: python manage.py runserver 0.0.0.0:$PORT & node server.js
