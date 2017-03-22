@@ -22,12 +22,12 @@ module.exports = config
 
 var port = (process.env.PORT || 3000)
 
-var ip = hostname
+var ip = 'cryptic-ravine-26247.herokuapp.com/'
         config.entry = {
           App1: [
-            'webpack-dev-server/client?https://' + ip + ':' + port.toString(),
+            'webpack-dev-server/client?https://' + ip,
             'webpack/hot/only-dev-server',
             './static/js/indexReact',
           ],
         }
-      config.output.publicPath = 'https://' + ip + ':' + port.toString() + '/static/bundles/'
+      config.output.publicPath = 'https://' + ip + '/static/bundles/'
