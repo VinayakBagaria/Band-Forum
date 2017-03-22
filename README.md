@@ -8,7 +8,7 @@ Store and share all your favorite bands. `Dont mind the testing images I kept in
 
 Integrating the two most awesome frameworks, you get the best product.
 
-<img src="https://www.google.co.in/search?q=react+with+django+and+sqlite3+pic&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiszvTQ6-nSAhWIOY8KHUZUBG0Q_AUIBygC&biw=1958&bih=900#tbm=isch&q=django+and+reactjs&*&imgrc=MFsxMVqMd0strM:" />
+<img src="http://blog.collectivecloudperu.com/wp-content/uploads/2016/04/drat-930x305.png" />
 
 # What to do
 
@@ -18,7 +18,6 @@ Just insert your band name, image url and a description, and share it.
 
 ## Credits
 
-Do checkout this link https://www.google.co.in/search?q=react+with+django+and+sqlite3+pic&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiszvTQ6-nSAhWIOY8KHUZUBG0Q_AUIBygC&biw=1958&bih=900#tbm=isch&q=django+and+reactjs&*&imgrc=MFsxMVqMd0strM:
-for the amazing card design in Band Page.
+Do checkout this link : http://codepen.io/andytran/pen/BNjymy/ for the amazing card design in Band Page.
 
 <img src="https://github.com/VinayakBagaria/Band-Forum/blob/master/assets/band%20images.JPG" />
