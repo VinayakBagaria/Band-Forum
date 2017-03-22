@@ -1,2 +1,2 @@
-webpy: gunicorn music.wsgi:application
-webjs: node server.js
+web: gunicorn music.wsgi:application
+web: node server.js
