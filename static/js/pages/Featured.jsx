@@ -12,7 +12,7 @@ export default class Featured extends React.Component {
     */
     /*
     const arrays=[
-      <Article key={1} title={"Some title 1"}/>,
+      <Article key={1} title={"Some title 6"}/>,
       <Article key={4} title={"Some title 3"}/>,
       <Article key={2} title={"Some title 2"}/>,
       <Article key={3} title={"Some title 5"}/>,
