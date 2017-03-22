@@ -22,7 +22,7 @@ module.exports = config
 
 var port = (process.env.PORT || 3000)
 
-var ip = 'cryptic-ravine-26247.herokuapp.com/'
+var ip = 'cryptic-ravine-26247.herokuapp.com'
         config.entry = {
           App1: [
             'webpack-dev-server/client?https://' + ip,
